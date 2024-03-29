@@ -37,6 +37,9 @@
   padding: 20px;  
 }
 
+.blog-preview{
+  margin-top: 30px;
+}
 
 body{
   background-color: rgb(168, 180, 180);
@@ -50,4 +53,20 @@ body{
   font-size: 20px;
   color: #00f;
   margin-bottom: 8px;
+}
+
+button{
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  
+}
+
+button:hover{
+  transform: scale(1.2);
 }
