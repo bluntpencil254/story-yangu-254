@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "My New Website",
+            "body": "why do we use it? dfhdyufygewyg refyrefg rytftfgft trf",
+            "author": "Wilson Rotich",
+            "id": 1
+        },
+        {"title": "Welcome Party!",
+         "body": "Are you thinking what i am thinking right now? dyudgetwfet dfgetedftdew tdfet",
+         "author": "John Mark",
+          "id": 2
+        }
+
+    ]
+}
