@@ -54,3 +54,8 @@ body{
   color: #00f;
   margin-bottom: 8px;
 }
+
+.blog-preview a{
+  text-decoration: none;
+
+}

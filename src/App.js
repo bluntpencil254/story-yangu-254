@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import BlogDetails from './blogDetails';
 import Create from './create';
 import Home from './home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
@@ -16,6 +17,9 @@ function App() {
             </Route>
             <Route path="/create">
                 <Create />
+            </Route>
+            <Route path="/blogs/:id">
+                <BlogDetails />
             </Route>
 
         </Switch>
