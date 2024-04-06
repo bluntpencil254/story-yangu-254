@@ -59,3 +59,52 @@ body{
   text-decoration: none;
 
 }
+
+.blog-details h2{
+  font-size: 20px;
+  color: #00f;
+  margin-bottom: 20px;
+}
+.blog-details p{
+  font-style: italic;
+  font-weight: 800;
+}
+.blog-details div{
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button{
+  background-color: red;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
