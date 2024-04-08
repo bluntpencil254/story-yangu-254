@@ -3,6 +3,7 @@ import BlogDetails from './blogDetails';
 import Create from './create';
 import Home from './home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import Nonexisting from './nonexisting';
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
             <Route path="/blogs/:id">
                 <BlogDetails />
             </Route>
-
+            <Route path= "*">
+                <Nonexisting />
+            </Route>
         </Switch>
       </div>
     </div>
